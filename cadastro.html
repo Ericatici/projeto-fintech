@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+   <title>Cadastro Investimento</title>
+</head>
+<body class="fundo-azul">
+    
+    <div class="fundo-cinza">
+        <header>
+            <h2>Investimentos</h2>
+        </header>
+       
+    </div>
+    
+    <div class="container" >
+                
+        <div class="row center mt-5">
+            <h2>Abrindo conta de Investimento</h2>
+        </div>
+        
+        <div class="mt-5 center">
+            <h3>Por favor preencha as informações:</h3>
+        </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="row">
+                         
+                            <div class="form-group col-md-8 mb-3">
+                                <label for="nome" class="form-label" >Nome :</label>
+                                <input type="text" id="nome" class="form-control" placeholder="nome completo" required>
+                            </div>
+                        
+                            <div class="form-group col-md-4 mb-3"">
+                               <label for="dataDeNasc" class="form-label">Data de Nascimento :</label>
+                                    <input type="date" id="dataDeNasc" class="form-control"  placeholder="Data de Nascimento" required>
+                             </div>
+                                
+                            <div class="form-group mb-3 col-md-4">
+                                <label for="end" class="form-label">Endereço :</label>
+                                <input type="adress" id="end"  class="form-control" placeholder="endereço" required >
+                            </div>
+
+                            <div class="form-group mb-3 col-md-4">
+                                <label for="num" class="form-label">Numero :</label>
+                                <input type="number" id="num"  class="form-control" placeholder="numero" required >
+                            </div>
+
+                            <div class="form-group mb-3 col-md-4">
+                                <label for="cep" class="form-label">CEP:</label>
+                                <input type="text" name= "cep" id="cep"  class="form-control" placeholder="CEP" required >
+                            </div>
+
+                    
+                            <div class="form-group mb-3 col-md-6">
+                                <label for="email" class="form-label">E-mail:</label>
+                                <input type="email" id="email" class="form-control" placeholder="email" required>
+                            </div>
+                    
+                            <div class="form-group mb-3 col-md-6">
+                                <label for="tel" class="form-label"> Telefone:</label>
+                                <input type="tel" id="tel" class="form-control" placeholder="telefone" required>
+                            </div>
+                        </div> 
+                        <button type="submit" class=" btn btn-success">
+                            <i class="bi bi-cash-coin"></i>
+                            Abrir conta Investimento
+                        </button>
+                    </form> 
+                </div>
+
+            </div>
+            
+       
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
